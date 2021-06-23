@@ -5,7 +5,7 @@
     "ui/*"
   ],
   "scripts": {
-    "business-dev": "yarn lerna run --stream --scope \"@hiwe/business-ui\" dev"
+    "business-ui": "yarn lerna run --stream --scope \"@hiwe/business-ui\" dev"
   },
   "devDependencies": {
     "@types/node": "^15.12.2",
