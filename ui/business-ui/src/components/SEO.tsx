@@ -1,4 +1,4 @@
-import Head from "next/head";
+import Head from 'next/head';
 
 interface SeoProps {
   title: string;
@@ -14,8 +14,8 @@ export function SEO({
   image,
   shouldExcludeTitleSuffix = false,
   shouldIndexPage = true,
-}: SeoProps) {
-  const pageTitle = `${title}${!shouldExcludeTitleSuffix ? " | Hiwe" : ""}`;
+}: SeoProps): JSX.Element {
+  const pageTitle = `${title}${!shouldExcludeTitleSuffix ? ' | Hiwe' : ''}`;
   const pageImage = image ? image : null;
   return (
     <Head>
