@@ -5,6 +5,7 @@ import { FaFacebook } from 'react-icons/fa';
 export default function Home(): JSX.Element {
   return (
     <Flex w="100w" h="100h" direction="row" wrap="wrap">
+      <SEO title="Hiwe para Parceiros" shouldExcludeTitleSuffix />
       <Flex justify="space-between" width="100%" maxW={1280} mx="auto" px="3">
         <Box flex="1">
           <Heading>Seja um parceiro, tenha novos clientes e controle o seu negócio.</Heading>
