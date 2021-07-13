@@ -1,21 +1,28 @@
 import { extendTheme } from '@chakra-ui/react';
 
 export const theme = extendTheme({
-  // colors: {
-  //   gray: {
-  //     "900": "#181b23",
-  //   },
-  // },
+  colors: {
+    hiwe: {
+      blue: {
+        '100': '#F5F8FA',
+        '900': '#123952',
+      },
+      orange: {
+        '400': '#F99928', // orange primary
+        '500': '#FF9416', // text orange
+      },
+    },
+  },
   fonts: {
     heading: 'Roboto',
     body: 'Roboto',
   },
-  // styles: {
-  //   global: {
-  //     body: {
-  //       bg: "gray.100",
-  //       color: "black",
-  //     },
-  //   },
-  // },
+  styles: {
+    global: {
+      body: {
+        bg: 'hiwe.blue.100',
+        color: 'hiwe.blue.900',
+      },
+    },
+  },
 });
